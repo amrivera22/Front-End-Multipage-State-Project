@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.jpeg" alt="logo pic">
+        <h1 class="form-title">Contact</h1>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="albany.html">Albany</a></li>
+                <li><a href="manhattan.html">Manhattan</a></li>
+                <li><a href="bronx.html">Bronx</a></li>
+                <li><a href="form.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <!-- Flex container to hold form -->
+        <div class="form-container">
+        <form action="script.js" method="POST">
+            <!--First Name-->
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+
+             <!--Last Name-->
+            <div class="form-group">
+                <label for="lastNanme">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+
+             <!--email-->
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+             <!--confirm email-->
+            <div class="form-group">
+                <label for="confirm-email">Confirm email address:</label>
+                <input type="email" id="confirm-email" name="confirm-email" required>
+            </div>
+
+             <!--Question-->
+            <div class="form-group">
+                <label for="question">Ask a Question:</label>
+                <textarea type="question" id="question" name="question" rows="4" required></textarea>
+            </div>
+
+            <!--Submit Button-->
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Ashley Rivera 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
