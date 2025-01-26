@@ -1,5 +1,3 @@
-# WESTERN GOVERNORS UNIVERSITY 
-## D277 – FRONT-END WEB DEVELOPMENT
 
 As part of a static webpage project, my goal was to develop an engaging and functional website focused on a specific state, highlighting multiple cities within that state. Each city featured unique facts and details to provide users with an informative and interactive experience.
 
